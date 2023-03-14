@@ -1,0 +1,33 @@
+https://www.baeldung.com/cs/statically-vs-dynamically-typed-languages
+
+
+Type Checking:
+
+
+Conversion:
+Conversion from one type to another type is known as implicit if it is to be done automatically by the compiler. 
+Implicit type conversions are also called Coercion and coercion is limited in many languages.
+
+
+Statically-Typed-Languages/Static-Type-Checking:
+    Type checking occurs at compile time.
+
+Some common examples of programming languages that belong to this category are Java, Haskell, C, C++, C#, Scala, Kotlin,
+Fortran, Go, Pascal, and Swift.
+
+Since type checking takes place during compile time, it’s much quicker to detect type errors in programs and address them early.
+
+Programs typically perform better at execution time because type checking has already been completed.
+
+
+
+
+Dynamically-Typed-Languages/Dynamic-Type-Checking:
+    Type checking occurs at runtime/execution-time.
+
+In Dynamic Type Checking, types are associated with values, not variables. 
+
+
+Example: Python, JavaScript, Lisp, PHP, Ruby, Perl, Lua, and Tcl.
+
+There’s a tendency for slower execution because the type information for every variable has to be retrieved at runtime
